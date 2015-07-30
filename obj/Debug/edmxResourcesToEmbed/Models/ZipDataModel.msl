@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_9D02D7_zipcodemanagerModelStoreContainer" CdmEntityContainer="DB_9D02D7_zipcodemanagerEntities">
+    <EntitySetMapping Name="Zips">
+      <EntityTypeMapping TypeName="DB_9D02D7_zipcodemanagerModel.Zip">
+        <MappingFragment StoreEntitySet="Zips">
+          <ScalarProperty Name="ZIP1" ColumnName="ZIP" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
